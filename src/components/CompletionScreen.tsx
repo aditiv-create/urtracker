@@ -26,18 +26,18 @@ export const CompletionScreen = ({ completedCount, totalSteps, onRestart }: Comp
         Day Complete! 🌙
       </h2>
       
-      <p className="text-base md:text-lg text-muted-foreground font-light mb-8">
+      <p className="font-body text-base md:text-lg text-muted-foreground mb-8">
         {message}
       </p>
 
-      <p className="text-2xl md:text-3xl text-foreground mb-10">
+      <p className="font-body text-2xl md:text-3xl text-foreground mb-10">
         You completed <span className="font-semibold">{completedCount}</span> out of <span className="font-semibold">{totalSteps}</span> tasks
       </p>
 
       <div className="bg-[#EFF5EF] border border-[#B8CDB8] rounded-sm p-8 max-w-md mx-auto mb-10 shadow-card">
-        <p className="font-accent text-lg leading-relaxed text-foreground">
+        <p className="font-body text-lg leading-relaxed text-foreground">
           Remember: Progress isn't perfection.<br />
-          You're exactly where you need to be. ✨
+          You're exactly where you need to be.
         </p>
       </div>
 

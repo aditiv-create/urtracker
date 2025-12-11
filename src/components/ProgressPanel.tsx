@@ -34,8 +34,8 @@ export const ProgressPanel = ({
           color: `hsl(var(--phase-accent))`
         }}
       >
-        <div className="font-medium text-sm">{phase.name}</div>
-        <div className="text-xs opacity-80 mt-1">
+        <div className="font-body font-medium text-sm">{phase.name}</div>
+        <div className="font-body text-xs opacity-80 mt-1">
           Days {phase.days} · {currentDay}
         </div>
       </div>
@@ -62,10 +62,10 @@ export const ProgressPanel = ({
             >
               <span className="text-lg flex-shrink-0">{step.icon}</span>
               <div className="min-w-0 flex-1">
-                <div className="text-xs font-semibold text-foreground truncate">
+                <div className="font-body text-xs font-semibold text-foreground truncate">
                   {step.time}
                 </div>
-                <div className="text-xs text-muted-foreground truncate">
+                <div className="font-body text-xs text-muted-foreground truncate">
                   {step.title}
                 </div>
               </div>
