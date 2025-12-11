@@ -8,34 +8,34 @@
 
 @layer base {
   :root {
-    /* Japandi base colors */
-    --background: 40 33% 96%;
-    --foreground: 0 0% 23%;
+    /* Main mode: Mocha Earth + Vanilla Cream */
+    --background: 40 50% 89%;
+    --foreground: 11 17% 25%;
 
-    --card: 45 50% 99%;
-    --card-foreground: 0 0% 23%;
+    --card: 40 45% 94%;
+    --card-foreground: 11 17% 25%;
 
-    --popover: 45 50% 99%;
-    --popover-foreground: 0 0% 23%;
+    --popover: 40 45% 94%;
+    --popover-foreground: 11 17% 25%;
 
-    --primary: 0 0% 23%;
-    --primary-foreground: 40 33% 96%;
+    --primary: 11 17% 25%;
+    --primary-foreground: 40 50% 89%;
 
-    --secondary: 35 25% 91%;
-    --secondary-foreground: 0 0% 23%;
+    --secondary: 40 35% 85%;
+    --secondary-foreground: 11 17% 25%;
 
-    --muted: 35 25% 91%;
-    --muted-foreground: 30 15% 47%;
+    --muted: 40 30% 85%;
+    --muted-foreground: 11 12% 40%;
 
-    --accent: 35 25% 91%;
-    --accent-foreground: 0 0% 23%;
+    --accent: 11 17% 25%;
+    --accent-foreground: 40 50% 89%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 35 20% 88%;
-    --input: 35 20% 88%;
-    --ring: 0 0% 23%;
+    --border: 40 25% 80%;
+    --input: 40 25% 80%;
+    --ring: 11 17% 25%;
 
     --radius: 0.125rem;
 
@@ -67,8 +67,8 @@
     --font-accent: 'Crimson Pro', serif;
 
     /* Shadows */
-    --shadow-soft: 0 2px 20px hsla(0, 0%, 0%, 0.06);
-    --shadow-card: 0 2px 12px hsla(0, 0%, 0%, 0.08);
+    --shadow-soft: 0 2px 20px hsla(11, 17%, 25%, 0.08);
+    --shadow-card: 0 2px 12px hsla(11, 17%, 25%, 0.1);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -102,51 +102,51 @@
   }
 
   .plum {
-    /* Soft warm cream background with berry plum accents */
-    --background: 30 30% 97%;
-    --foreground: 340 25% 25%;
+    /* Alt mode: Mulberry Purple + Opal mint */
+    --background: 174 18% 78%;
+    --foreground: 330 85% 18%;
 
-    --card: 30 40% 99%;
-    --card-foreground: 340 25% 25%;
+    --card: 174 20% 85%;
+    --card-foreground: 330 85% 18%;
 
-    --popover: 30 40% 99%;
-    --popover-foreground: 340 25% 25%;
+    --popover: 174 20% 85%;
+    --popover-foreground: 330 85% 18%;
 
-    --primary: 340 45% 45%;
-    --primary-foreground: 30 30% 97%;
+    --primary: 330 85% 18%;
+    --primary-foreground: 174 18% 78%;
 
-    --secondary: 340 30% 92%;
-    --secondary-foreground: 340 25% 25%;
+    --secondary: 174 15% 72%;
+    --secondary-foreground: 330 85% 18%;
 
-    --muted: 30 20% 92%;
-    --muted-foreground: 340 20% 45%;
+    --muted: 174 12% 72%;
+    --muted-foreground: 330 60% 30%;
 
-    --accent: 340 45% 45%;
-    --accent-foreground: 30 30% 97%;
+    --accent: 330 85% 18%;
+    --accent-foreground: 174 18% 78%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 340 25% 88%;
-    --input: 340 25% 88%;
-    --ring: 340 45% 45%;
+    --border: 174 15% 68%;
+    --input: 174 15% 68%;
+    --ring: 330 85% 18%;
 
-    /* Phase colors with plum accent harmony */
-    --phase-menstrual: 340 45% 55%;
-    --phase-menstrual-secondary: 340 35% 92%;
-    --phase-menstrual-accent: 340 50% 45%;
+    /* Phase colors with mulberry harmony */
+    --phase-menstrual: 330 70% 35%;
+    --phase-menstrual-secondary: 174 15% 82%;
+    --phase-menstrual-accent: 330 75% 28%;
 
-    --phase-follicular: 35 50% 70%;
-    --phase-follicular-secondary: 35 45% 94%;
-    --phase-follicular-accent: 35 45% 55%;
+    --phase-follicular: 45 45% 65%;
+    --phase-follicular-secondary: 174 15% 82%;
+    --phase-follicular-accent: 45 40% 50%;
 
-    --phase-ovulatory: 160 35% 65%;
-    --phase-ovulatory-secondary: 160 30% 93%;
-    --phase-ovulatory-accent: 160 30% 50%;
+    --phase-ovulatory: 160 35% 55%;
+    --phase-ovulatory-secondary: 174 15% 82%;
+    --phase-ovulatory-accent: 160 30% 45%;
 
-    --phase-luteal: 280 35% 70%;
-    --phase-luteal-secondary: 280 30% 94%;
-    --phase-luteal-accent: 280 30% 55%;
+    --phase-luteal: 300 35% 45%;
+    --phase-luteal-secondary: 174 15% 82%;
+    --phase-luteal-accent: 300 30% 35%;
   }
 }
 
