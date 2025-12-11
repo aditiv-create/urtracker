@@ -102,51 +102,51 @@
   }
 
   .plum {
-    /* Alt mode: Mulberry Purple + Opal mint */
-    --background: 174 18% 78%;
-    --foreground: 330 85% 18%;
+    /* Alt mode: Matcha Mist + Dusty Coal */
+    --background: 125 18% 80%;
+    --foreground: 0 0% 13%;
 
-    --card: 174 20% 85%;
-    --card-foreground: 330 85% 18%;
+    --card: 125 15% 87%;
+    --card-foreground: 0 0% 13%;
 
-    --popover: 174 20% 85%;
-    --popover-foreground: 330 85% 18%;
+    --popover: 125 15% 87%;
+    --popover-foreground: 0 0% 13%;
 
-    --primary: 330 85% 18%;
-    --primary-foreground: 174 18% 78%;
+    --primary: 0 0% 13%;
+    --primary-foreground: 125 18% 80%;
 
-    --secondary: 174 15% 72%;
-    --secondary-foreground: 330 85% 18%;
+    --secondary: 125 12% 75%;
+    --secondary-foreground: 0 0% 13%;
 
-    --muted: 174 12% 72%;
-    --muted-foreground: 330 60% 30%;
+    --muted: 125 10% 75%;
+    --muted-foreground: 0 0% 35%;
 
-    --accent: 330 85% 18%;
-    --accent-foreground: 174 18% 78%;
+    --accent: 0 0% 13%;
+    --accent-foreground: 125 18% 80%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 174 15% 68%;
-    --input: 174 15% 68%;
-    --ring: 330 85% 18%;
+    --border: 125 12% 70%;
+    --input: 125 12% 70%;
+    --ring: 0 0% 13%;
 
-    /* Phase colors with mulberry harmony */
-    --phase-menstrual: 330 70% 35%;
-    --phase-menstrual-secondary: 174 15% 82%;
-    --phase-menstrual-accent: 330 75% 28%;
+    /* Phase colors with matcha harmony */
+    --phase-menstrual: 0 30% 60%;
+    --phase-menstrual-secondary: 125 12% 85%;
+    --phase-menstrual-accent: 0 25% 50%;
 
-    --phase-follicular: 45 45% 65%;
-    --phase-follicular-secondary: 174 15% 82%;
-    --phase-follicular-accent: 45 40% 50%;
+    --phase-follicular: 45 40% 65%;
+    --phase-follicular-secondary: 125 12% 85%;
+    --phase-follicular-accent: 45 35% 55%;
 
-    --phase-ovulatory: 160 35% 55%;
-    --phase-ovulatory-secondary: 174 15% 82%;
-    --phase-ovulatory-accent: 160 30% 45%;
+    --phase-ovulatory: 125 30% 55%;
+    --phase-ovulatory-secondary: 125 15% 85%;
+    --phase-ovulatory-accent: 125 25% 45%;
 
-    --phase-luteal: 300 35% 45%;
-    --phase-luteal-secondary: 174 15% 82%;
-    --phase-luteal-accent: 300 30% 35%;
+    --phase-luteal: 270 25% 60%;
+    --phase-luteal-secondary: 125 12% 85%;
+    --phase-luteal-accent: 270 20% 50%;
   }
 }
 
