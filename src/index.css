@@ -100,6 +100,53 @@
     --input: 0 0% 20%;
     --ring: 40 33% 96%;
   }
+
+  .plum {
+    --background: 300 15% 12%;
+    --foreground: 30 40% 94%;
+
+    --card: 300 18% 15%;
+    --card-foreground: 30 40% 94%;
+
+    --popover: 300 18% 15%;
+    --popover-foreground: 30 40% 94%;
+
+    --primary: 30 40% 94%;
+    --primary-foreground: 300 15% 12%;
+
+    --secondary: 300 12% 22%;
+    --secondary-foreground: 30 40% 94%;
+
+    --muted: 300 12% 22%;
+    --muted-foreground: 30 20% 70%;
+
+    --accent: 300 25% 35%;
+    --accent-foreground: 30 40% 94%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 300 15% 25%;
+    --input: 300 15% 25%;
+    --ring: 30 40% 94%;
+
+    /* Phase colors adjusted for plum theme */
+    --phase-menstrual: 340 35% 55%;
+    --phase-menstrual-secondary: 340 25% 25%;
+    --phase-menstrual-accent: 340 30% 45%;
+
+    --phase-follicular: 45 40% 65%;
+    --phase-follicular-secondary: 45 25% 25%;
+    --phase-follicular-accent: 45 35% 55%;
+
+    --phase-ovulatory: 150 30% 55%;
+    --phase-ovulatory-secondary: 150 20% 22%;
+    --phase-ovulatory-accent: 150 25% 45%;
+
+    --phase-luteal: 280 30% 60%;
+    --phase-luteal-secondary: 280 20% 25%;
+    --phase-luteal-accent: 280 25% 50%;
+  }
 }
 
 @layer base {

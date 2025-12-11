@@ -4,6 +4,7 @@ import { IntroScreen } from '@/components/IntroScreen';
 import { ProgressPanel } from '@/components/ProgressPanel';
 import { StepContent } from '@/components/StepContent';
 import { CompletionScreen } from '@/components/CompletionScreen';
+import { ThemeToggle } from '@/components/ThemeToggle';
 import { phaseData } from '@/data/phaseData';
 
 const Index = () => {
@@ -98,6 +99,7 @@ const Index = () => {
   if (!isStarted) {
     return (
       <main className="min-h-screen p-4 md:p-6">
+        <ThemeToggle />
         <IntroScreen
           onStart={startApp}
           onLoadSaved={loadSavedSession}
@@ -110,6 +112,7 @@ const Index = () => {
   if (isCompleted && phase) {
     return (
       <main className="min-h-screen p-4 md:p-6">
+        <ThemeToggle />
         <div className="max-w-4xl mx-auto">
           <div className="bg-card border border-border rounded-sm shadow-soft p-8 md:p-12">
             <CompletionScreen
@@ -129,6 +132,7 @@ const Index = () => {
 
   return (
     <main className="min-h-screen p-4 md:p-6">
+      <ThemeToggle />
       <div className="max-w-7xl mx-auto animate-slide-in">
         <div className="flex flex-col md:flex-row gap-6">
           {/* Progress Panel - Hidden on mobile by default, shown at bottom */}
