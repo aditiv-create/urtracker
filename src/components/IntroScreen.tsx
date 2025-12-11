@@ -41,29 +41,30 @@ export const IntroScreen = ({ onStart, onLoadSaved, hasSavedSession }: IntroScre
   const isValid = cycleDay && parseInt(cycleDay) >= 1 && parseInt(cycleDay) <= 28 && weekDay && pathway;
 
   return (
-    <div className="max-w-lg mx-auto mt-8 md:mt-12 animate-slide-in">
-      <div className="bg-card border border-border rounded-sm shadow-soft p-6 md:p-10">
-        <div className="text-center mb-8">
-          <h1 className="font-display text-4xl md:text-5xl text-foreground mb-3">
-            Daily Flow
-          </h1>
-          <p className="text-muted-foreground text-sm md:text-base font-light tracking-wide">
-            Your gentle companion through every phase
-          </p>
-        </div>
+    <div className="min-h-screen px-4 py-6 md:py-12 overflow-y-auto">
+      <div className="max-w-lg mx-auto animate-slide-in">
+        <div className="bg-card border border-border rounded-sm shadow-soft p-5 sm:p-6 md:p-10">
+          <div className="text-center mb-6 md:mb-8">
+            <h1 className="font-display text-3xl sm:text-4xl md:text-5xl text-foreground mb-2">
+              Daily Flow
+            </h1>
+            <p className="text-muted-foreground text-xs sm:text-sm md:text-base font-light tracking-wide">
+              Your gentle companion through every phase
+            </p>
+          </div>
 
-        {/* Personal Story Preface */}
-        <div className="bg-muted/30 border border-border/50 rounded-sm p-5 mb-8 text-left">
-          <p className="text-muted-foreground text-sm leading-relaxed mb-3">
-            As a kid, I filled journal after journal with daily schedules—carefully planning each day, trying to make sense of the chaos. This app is born from that same impulse, but grown up.
-          </p>
-          <p className="text-muted-foreground text-sm leading-relaxed mb-3">
-            I wanted to honor the different phases women go through in their cycle—something rarely talked about but felt so deeply. Our energy shifts, our needs change, and yet we're expected to show up the same way every day.
-          </p>
-          <p className="text-muted-foreground text-sm leading-relaxed">
-            This is a one-stop place for your <span className="text-foreground font-medium">diet needs</span>, your <span className="text-foreground font-medium">workout goals</span>, and gentle suggestions for <span className="text-foreground font-medium">calmer nights</span>—because these are the things I struggle with too. And I'm sure every woman deserves a little more support tailored to where she is in life. 💛
-          </p>
-        </div>
+          {/* Personal Story Preface */}
+          <div className="bg-muted/30 border border-border/50 rounded-sm p-4 sm:p-5 mb-6 md:mb-8 text-left">
+            <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed mb-2 sm:mb-3">
+              As a kid, I filled journal after journal with daily schedules—carefully planning each day, trying to make sense of the chaos. This app is born from that same impulse, but grown up.
+            </p>
+            <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed mb-2 sm:mb-3">
+              I wanted to honor the different phases women go through in their cycle—something rarely talked about but felt so deeply. Our energy shifts, our needs change, and yet we're expected to show up the same way every day.
+            </p>
+            <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">
+              This is a one-stop place for your <span className="text-foreground font-medium">diet needs</span>, your <span className="text-foreground font-medium">workout goals</span>, and gentle suggestions for <span className="text-foreground font-medium">calmer nights</span>—because these are the things I struggle with too. And I'm sure every woman deserves a little more support tailored to where she is in life. 💛
+            </p>
+          </div>
 
         <div className="space-y-6">
           <div className="space-y-2">
@@ -136,6 +137,7 @@ export const IntroScreen = ({ onStart, onLoadSaved, hasSavedSession }: IntroScre
           >
             Begin
           </Button>
+        </div>
         </div>
       </div>
     </div>
