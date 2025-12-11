@@ -167,7 +167,7 @@ export const StepContent = ({
       </div>
 
       {/* Description */}
-      <p className="text-base leading-relaxed text-muted-foreground font-light mb-8">
+      <p className="font-body text-base leading-relaxed text-muted-foreground mb-8">
         {step.description}
       </p>
 
@@ -180,7 +180,7 @@ export const StepContent = ({
           {step.tasks.map((task, index) => (
             <li 
               key={index}
-              className="py-3 border-b border-border last:border-b-0 text-sm text-foreground font-light"
+              className="py-3 border-b border-border last:border-b-0 text-sm text-foreground font-body"
             >
               <span className="text-muted-foreground mr-3">—</span>
               {task}
@@ -215,7 +215,7 @@ export const StepContent = ({
                   )}
                 </div>
                 <span className={cn(
-                  "text-sm font-light transition-all",
+                  "text-sm font-body transition-all",
                   completedWorkouts.includes(index) && "opacity-50 line-through"
                 )}>
                   {exercise}
@@ -223,7 +223,7 @@ export const StepContent = ({
               </button>
             ))}
           </div>
-          <p className="mt-5 text-sm text-muted-foreground font-light">
+          <p className="mt-5 text-sm text-muted-foreground font-body">
             {(currentPhase === 'menstrual' || currentPhase === 'luteal')
               ? 'Remember: Modify as needed. Lighter weights and reduced sets are perfectly fine today.'
               : "You've got the energy for this! Focus on form and progressive overload."}
