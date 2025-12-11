@@ -55,14 +55,14 @@ export const IntroScreen = ({ onStart, onLoadSaved, hasSavedSession }: IntroScre
 
           {/* Personal Story Preface */}
           <div className="bg-muted/30 border border-border/50 rounded-sm p-4 sm:p-5 mb-6 md:mb-8 text-left">
-            <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed mb-2 sm:mb-3">
-              As a kid, I filled journal after journal with daily schedules—carefully planning each day, trying to make sense of the chaos. This app is born from that same impulse, but grown up.
+            <p className="font-body text-muted-foreground text-xs sm:text-sm leading-relaxed mb-2 sm:mb-3">
+              As a kid, I filled journal after journal with daily schedules, carefully planning each day, trying to make sense of the chaos. This app is born from that same impulse, but grown up.
             </p>
-            <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed mb-2 sm:mb-3">
-              I wanted to honor the different phases women go through in their cycle—something rarely talked about but felt so deeply. Our energy shifts, our needs change, and yet we're expected to show up the same way every day.
+            <p className="font-body text-muted-foreground text-xs sm:text-sm leading-relaxed mb-2 sm:mb-3">
+              I wanted to honor the different phases women go through in their cycle, something rarely talked about but felt so deeply. Our energy shifts, our needs change, and yet we're expected to show up the same way every day.
             </p>
-            <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">
-              This is a one-stop place for your <span className="text-foreground font-medium">diet needs</span>, your <span className="text-foreground font-medium">workout goals</span>, and gentle suggestions for <span className="text-foreground font-medium">calmer nights</span>—because these are the things I struggle with too. And I'm sure every woman deserves a little more support tailored to where she is in life. 💛
+            <p className="font-body text-muted-foreground text-xs sm:text-sm leading-relaxed">
+              This is a one-stop place for your <span className="text-foreground font-medium">diet needs</span>, your <span className="text-foreground font-medium">workout goals</span>, and gentle suggestions for <span className="text-foreground font-medium">calmer nights</span>, because these are the things I struggle with too. And I'm sure every woman deserves a little more support tailored to where she is in life.
             </p>
           </div>
 

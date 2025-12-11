@@ -15,7 +15,7 @@ export default {
     extend: {
       fontFamily: {
         display: ['DM Serif Display', 'serif'],
-        body: ['Inter', 'sans-serif'],
+        body: ['Courier Prime', 'Courier New', 'monospace'],
         accent: ['Crimson Pro', 'serif'],
       },
       colors: {
