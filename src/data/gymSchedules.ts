@@ -74,69 +74,115 @@ export const gymSchedules: Record<string, Record<string, Workout>> = {
   },
   perimenopause: {
     Sunday: {
-      name: 'Rest & Recovery',
-      icon: '🛋️',
+      name: 'Lower Body + Core',
+      icon: '🦵',
       exercises: [
-        'Complete rest or very gentle stretching',
-        'Focus on sleep and nutrition',
-        'Foam rolling if desired'
+        '— Warm-up (5–10 min): Brisk walk/easy cycle, arm circles, hip circles, leg swings, cat–cow',
+        '',
+        'Squats or Chair Sit-to-Stand (bodyweight or dumbbells): 2–3 sets x 8–12 reps',
+        'Dumbbell Romanian Deadlift or Hip Thrust/Glute Bridge: 2–3 sets x 8–12 reps',
+        'Step-Ups (low step/bench): 2–3 sets x 8–10 reps each leg',
+        'Static Lunge or Split Squat (hold support if needed): 2–3 sets x 8 reps each leg',
+        'Calf Raises: 2–3 sets x 12–15 reps',
+        '',
+        '— Core & Mobility (5–10 min):',
+        'Dead Bugs: 8–10 each side',
+        'Side Plank (knees down if needed): 15–30 sec each side',
+        '',
+        '— Cool-down (5 min): Gentle stretching, breathing'
       ]
     },
     Monday: {
-      name: 'Gentle Cardio',
-      icon: '🚶‍♀️',
+      name: 'Upper Body + Core',
+      icon: '💪',
       exercises: [
-        'Walking: 30–45 min at comfortable pace',
-        'Swimming: gentle laps',
-        'Or comfortable cycling'
+        '— Warm-up (5–10 min): Brisk walk/easy cycle, arm circles, hip circles, leg swings, cat–cow',
+        '',
+        'Incline Push-Ups (hands on wall or bench): 2–3 sets x 8–12 reps',
+        'Dumbbell Chest Press (on bench or floor): 2–3 sets x 8–12 reps',
+        'Dumbbell Row or Cable Row: 2–3 sets x 8–12 reps',
+        'Seated Dumbbell Shoulder Press: 2–3 sets x 8–10 reps',
+        'Lat Pulldown or Assisted Pull-Down: 2–3 sets x 8–12 reps',
+        'Biceps Curls: 2–3 sets x 10–12 reps',
+        'Triceps Pushdowns or Dumbbell Kickbacks: 2–3 sets x 10–12 reps',
+        '',
+        '— Core/Posture:',
+        'Bird Dogs: 8–10 each side',
+        'Face Pulls or Band Pull-Apart: 12–15 reps',
+        '',
+        '— Cool-down (5 min): Gentle stretching, breathing'
       ]
     },
     Tuesday: {
-      name: 'Flexibility & Balance',
-      icon: '🧘‍♀️',
+      name: 'Cardio + Mobility',
+      icon: '🚴‍♀️',
       exercises: [
-        'Gentle yoga or Pilates: 20–30 min',
+        '— Cardio (25–35 min):',
+        'Brisk walk, cycling, or swimming',
+        'Intensity: you can talk but not sing (moderate)',
+        '',
+        '— Mobility/Yoga (10–15 min):',
         'Hip flexor stretch',
         'Hamstring stretch',
-        'Shoulder rolls',
-        'Balance practice (single leg stands)'
+        'Chest opener against wall',
+        'Gentle spinal twists',
+        '',
+        '💡 This day should feel refreshing, not draining'
       ]
     },
     Wednesday: {
       name: 'Full-Body Strength',
       icon: '🏋️‍♀️',
       exercises: [
-        'Squats (chair support if needed): 2 sets x 10 reps',
-        'Incline Push-Ups: 2 sets x 8–10 reps',
-        'Lat Pulldown or Band Pulls: 2 sets x 10–12 reps',
-        'Glute Bridges: 2 sets x 12–15 reps',
-        'Core work (dead bugs or planks): 2 sets'
+        '— Warm-up (5–10 min): Brisk walk/easy cycle, arm circles, hip circles, leg swings, cat–cow',
+        '',
+        'Goblet Squat or Leg Press: 2–3 sets x 8–10 reps',
+        'Hip Thrust or Glute Bridge: 2–3 sets x 10–12 reps',
+        'Dumbbell Row: 2–3 sets x 8–12 reps',
+        'Dumbbell Chest Press: 2–3 sets x 8–12 reps',
+        'Dumbbell Romanian Deadlift: 2–3 sets x 8–10 reps',
+        'Pallof Press or Anti-rotation Band Hold: 2–3 sets x 10–12 reps each side',
+        '',
+        '💡 Core can be baked in; add 1 plank variation if you like',
+        '',
+        '— Cool-down (5 min): Gentle stretching, breathing'
       ]
     },
     Thursday: {
-      name: 'Gentle Cardio',
-      icon: '🚴‍♀️',
+      name: 'Fun Movement Day',
+      icon: '🎾',
       exercises: [
-        'Walking, swimming, or dancing: 30 min',
-        'Keep intensity comfortable and enjoyable'
+        '— Options (30–45 min):',
+        'Walk with a friend',
+        'Dance class, Zumba, pickleball, or light tennis',
+        'Comfortable cycling path ride',
+        '',
+        '💡 Intensity can be moderate; if sleep-deprived, keep it lower and focus on just showing up and moving'
       ]
     },
     Friday: {
-      name: 'Stretching & Recovery',
-      icon: '☁️',
+      name: 'Gentle Movement (Optional)',
+      icon: '🧘‍♀️',
       exercises: [
-        '20–30 min gentle stretching',
-        'Foam rolling or self-massage',
-        'Gentle movement or rest'
+        '— If energy is good:',
+        '20–30 min easy walk',
+        '15–20 min yoga / stretching',
+        'Light core work (dead bugs, glute bridges, clamshells)',
+        '',
+        '— If energy is low:',
+        'Active recovery or extra rest day',
+        '',
+        '💡 Listening to the body matters more than "checking a box"'
       ]
     },
     Saturday: {
-      name: 'Social Movement',
-      icon: '👥',
+      name: 'Full Rest',
+      icon: '🛋️',
       exercises: [
-        'Walk with a friend',
-        'Group class or gentle activity',
-        'Gardening or leisure activity'
+        'No structured workouts',
+        'Short walk is fine if it feels good',
+        '',
+        '💡 Focus on sleep, hydration, and calm nervous system'
       ]
     }
   }
