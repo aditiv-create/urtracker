@@ -7,81 +7,68 @@ export interface Workout {
 export const gymSchedules: Record<string, Record<string, Workout>> = {
   young: {
     Sunday: {
-      name: 'Active Recovery',
-      icon: '🧘',
+      name: 'Push',
+      icon: '💪',
       exercises: [
-        'Yoga flow: 20-30 min',
-        'Foam rolling all major muscle groups',
-        'Light stretching',
-        'Optional: gentle walk or swim'
+        'Incline Smith Press: 3 sets x 4–6 reps',
+        'Overhead Shoulder Press: 3 sets x 4–7 reps',
+        'Machine reverse flies or Chest fly: 3 sets x 6–8 reps',
+        'Overhead tricep extensions: 3 sets x 6–8 reps',
+        'Cable tricep pushdowns: 2 sets x 6–8 reps'
       ]
     },
     Monday: {
-      name: 'Lower Body A (Quad Focus)',
-      icon: '🦵',
+      name: 'Pull',
+      icon: '🏋️‍♀️',
       exercises: [
-        'Barbell Back Squat: 4 sets x 6-8 reps',
-        'Leg Press: 3 sets x 10-12 reps',
-        'Romanian Deadlift: 3 sets x 8-10 reps',
-        'Walking Lunges: 3 sets x 12 each leg',
-        'Leg Extensions: 3 sets x 12-15 reps',
-        'Calf Raises: 4 sets x 15-20 reps'
+        'Lat Pulldown: 3 sets x 6–8 reps',
+        'T-Bar Rows: 3 sets x 4–8 reps',
+        'Tucked Cable Rows: 3 sets x 6–8 reps',
+        'Preacher dumbbell curls: 3 sets x 6–8 reps',
+        'Core: leg raises: 3 sets x 8 reps',
+        'Core: cable crunches: 3 sets x 8 reps'
       ]
     },
     Tuesday: {
-      name: 'Upper Body A (Push Focus)',
-      icon: '💪',
+      name: 'Glutes & Hamstrings',
+      icon: '🍑',
       exercises: [
-        'Bench Press: 4 sets x 6-8 reps',
-        'Overhead Press: 3 sets x 8-10 reps',
-        'Incline Dumbbell Press: 3 sets x 10-12 reps',
-        'Lateral Raises: 3 sets x 12-15 reps',
-        'Tricep Pushdowns: 3 sets x 12-15 reps',
-        'Face Pulls: 3 sets x 15-20 reps'
+        'Reverse leg curls: 3 sets x 6–8 reps',
+        'Romanian deadlifts: 3 sets x 6–8 reps',
+        'Smith machine squats (feet forward): 4 sets x 6–8 reps',
+        'Hip thrusts: 4 sets x 6–8 reps'
       ]
     },
     Wednesday: {
-      name: 'Cardio & Core',
-      icon: '🏃‍♀️',
+      name: 'Cardio',
+      icon: '🏊‍♀️',
       exercises: [
-        'LISS Cardio: 30-45 min (walking, cycling, swimming)',
-        'Planks: 3 sets x 45-60 seconds',
-        'Dead Bugs: 3 sets x 12 each side',
-        'Bicycle Crunches: 3 sets x 20',
-        'Bird Dogs: 3 sets x 10 each side'
+        'Swim (steady pace, comfortable effort)'
       ]
     },
     Thursday: {
-      name: 'Lower Body B (Glute/Ham Focus)',
-      icon: '🍑',
+      name: 'Quads',
+      icon: '🦵',
       exercises: [
-        'Hip Thrusts: 4 sets x 8-10 reps',
-        'Sumo Deadlift: 4 sets x 6-8 reps',
-        'Bulgarian Split Squats: 3 sets x 10 each leg',
-        'Leg Curls: 3 sets x 12-15 reps',
-        'Cable Kickbacks: 3 sets x 12-15 each leg',
-        'Calf Raises: 4 sets x 15-20 reps'
+        'Bulgarian squats: 3 sets x 6–8 reps',
+        'Smith machine squats (normal stance): 3 sets x 6–8 reps',
+        'Leg extensions: 4 sets x 6–8 reps',
+        'Calf raises: 4 sets x 6–8 reps',
+        'Optional core at the end if energy allows'
       ]
     },
     Friday: {
-      name: 'Upper Body B (Pull Focus)',
-      icon: '🏋️‍♀️',
+      name: 'Active Rest',
+      icon: '🚶‍♀️',
       exercises: [
-        'Pull-Ups or Lat Pulldown: 4 sets x 6-10 reps',
-        'Barbell Row: 4 sets x 8-10 reps',
-        'Seated Cable Row: 3 sets x 10-12 reps',
-        'Face Pulls: 3 sets x 15-20 reps',
-        'Bicep Curls: 3 sets x 12-15 reps',
-        'Hammer Curls: 3 sets x 12-15 reps'
+        'Walk with a friend (easy social pace, 30–60 minutes)'
       ]
     },
     Saturday: {
-      name: 'Full Body or Fun Activity',
-      icon: '🎉',
+      name: 'Fun Movement',
+      icon: '🎾',
       exercises: [
-        'Option A: Full body circuit workout',
-        'Option B: Sports, dance class, or hiking',
-        'Focus on enjoying movement!'
+        'Pickleball (length and intensity based on energy and schedule)'
       ]
     }
   },
@@ -99,7 +86,7 @@ export const gymSchedules: Record<string, Record<string, Workout>> = {
       name: 'Gentle Cardio',
       icon: '🚶‍♀️',
       exercises: [
-        'Walking: 30-45 min at comfortable pace',
+        'Walking: 30–45 min at comfortable pace',
         'Swimming: gentle laps',
         'Or comfortable cycling'
       ]
@@ -108,7 +95,7 @@ export const gymSchedules: Record<string, Record<string, Workout>> = {
       name: 'Flexibility & Balance',
       icon: '🧘‍♀️',
       exercises: [
-        'Gentle yoga or Pilates: 20-30 min',
+        'Gentle yoga or Pilates: 20–30 min',
         'Hip flexor stretch',
         'Hamstring stretch',
         'Shoulder rolls',
@@ -120,9 +107,9 @@ export const gymSchedules: Record<string, Record<string, Workout>> = {
       icon: '🏋️‍♀️',
       exercises: [
         'Squats (chair support if needed): 2 sets x 10 reps',
-        'Incline Push-Ups: 2 sets x 8-10 reps',
-        'Lat Pulldown or Band Pulls: 2 sets x 10-12 reps',
-        'Glute Bridges: 2 sets x 12-15 reps',
+        'Incline Push-Ups: 2 sets x 8–10 reps',
+        'Lat Pulldown or Band Pulls: 2 sets x 10–12 reps',
+        'Glute Bridges: 2 sets x 12–15 reps',
         'Core work (dead bugs or planks): 2 sets'
       ]
     },
@@ -138,7 +125,7 @@ export const gymSchedules: Record<string, Record<string, Workout>> = {
       name: 'Stretching & Recovery',
       icon: '☁️',
       exercises: [
-        '20-30 min gentle stretching',
+        '20–30 min gentle stretching',
         'Foam rolling or self-massage',
         'Gentle movement or rest'
       ]
